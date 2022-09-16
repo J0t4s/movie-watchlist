@@ -1,0 +1,235 @@
+/* =====
+
+to do     border-bottom: 1.5px solid #2c2c2c; on div after js
+
+==== */
+
+
+html, body {
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+/* <================
+    1   typography
+==================> */
+h1 {
+    font-size: 2.674rem;
+}
+
+h2 {
+    font-size: 1.125rem;
+    color:#2E2E2F;
+}
+
+h3 {
+    font-size: 1.125rem;
+}
+
+a, .movie-plot, #btn-search { 
+    font-size: .875rem;
+}
+
+p, .add-watchlist {
+    font-size: .75rem;
+}
+
+.movie-plot, #input-search {
+    color: #A5A5A5;
+
+}
+
+
+/* ==================
+    2   header && nav
+===================== */
+
+header {
+    background-color: #2E2E2F;
+    background-image: url(/images/header-bg.png);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 13em;
+}
+
+.title {
+    padding: 5.125em auto;
+}
+
+.nav-item, a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.nav-item:visited, a:visited {
+    color: inherit;
+}
+
+.nav-item:focus, a:focus,
+ .nav-item:hover, a:hover{
+    color: #CCC;
+}
+/* ==================
+    3   search
+=================== */
+
+.search-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
+    width: 84%;
+    
+}
+
+#input-search {
+    color: #121212;
+    background-image: url(images/lupaIcon.svg);
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    background-position: .625em;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    height: 2.5em;
+    padding: 0 0 0 2.1875em;
+    width: 74%;
+}
+
+#btn-search {
+    border: none;
+    background-color: #4B4B4B;
+    border-radius: 0 6px 6px 0;
+    color: #FFF;
+    font-weight: 500;
+    padding: .5625em 2.125em;
+    width: 26%;
+}
+
+
+/* =====================
+    4   movie container
+    ===================== */
+
+
+
+.start-container, .error-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 28em;
+    justify-content: center;
+    margin: 0% auto;
+    width: 100%;
+}
+
+.start-container {
+    background-image: url(/images/filmIcon.svg);
+    background-size: 4.375em;
+    background-repeat: no-repeat;
+    background-position: 50% 36%;
+}
+
+.anchor-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.movie-genre-container {
+    display: flex;
+    margin-top: 0;
+}
+
+.plus-icon, .remove-icon{
+    background-position: 0 40%;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    cursor: pointer;
+    height: 16px;
+    padding: 0 1.5em;
+    margin-top: .25em;
+}
+
+.plus-icon {
+    background-image: url(/images/plusWatchlistIcon.svg);
+    
+}
+
+.remove-icon {
+    background-image: url(/images/removeIcon.svg);
+}
+
+
+.movie-spot-class {
+    display: flex;
+    margin: 2em auto 1.5625em auto;
+    width: 84%;
+}
+
+.movie-spot-class:not(:last-child) {
+    border-bottom: 1.5px solid #e5e7eb ;
+}
+
+.img-poster {
+    height: 9.375em;
+    width: 6.1875em;
+    margin-bottom: 1.25em;
+}
+.movie-data {
+    margin-left: 1.25em;
+}
+
+.movie-title, .movie-rating{
+    display: inline-block;
+    margin-bottom: .6875em;
+}
+
+.movie-rating {
+    background-image: url(/images/starIcon.svg);
+    background-position: 0% 45%;
+    padding: 0 1em 0 1.2em;
+    margin-left: .7em;
+}
+
+.movie-rating , .add-watchlist{
+    background-repeat: no-repeat;
+    background-size: .9375em;
+}
+
+.add-watchlist {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    background-position: 20% 50%;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    padding: 0 0 0 2.5em;
+    height:  1.25em;
+}
+
+.movie-run-time, .movie-genre, .add-watchlist {
+    margin-top: inherit;
+    margin-bottom: 0;
+}
+.movie-genre {
+    margin-left: 1.125em;
+}
+
+.invisible {
+    display: none;
+} 
