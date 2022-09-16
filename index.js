@@ -23,6 +23,7 @@ async function getMoviesDataBase() {
     }else{
         inputSearch.valu = ''
         const moviesData = data.Search.map(movie => movie.imdbID)
+        movieSpot.innerHTML = ""
         getMovies(moviesData)        
     }
 }
