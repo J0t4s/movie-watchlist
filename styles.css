@@ -23,6 +23,9 @@ h2 {
 h3 {
     font-size: 1.125rem;
 }
+a {
+    text-decoration: none;
+}
 
 a, .movie-plot, #btn-search { 
     font-size: .875rem;
@@ -34,8 +37,8 @@ p, .add-watchlist {
 
 .movie-plot, #input-search {
     color: #A5A5A5;
-
 }
+
 
 
 /* ==================
