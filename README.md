@@ -12,7 +12,7 @@
 - Vanilla Javascript
 - [OMDb API](https://www.omdbapi.com/)
 
-# Continuação
+# To be contenued
 - The code need to be more dry.
 - Add responsiveness. 
 - I will implement more features as my knowledge grows
