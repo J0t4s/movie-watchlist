@@ -4,18 +4,18 @@
 - The user can adding or removing the movie from their Watchlist and reviewing the list whenever they wish.The watchlist is stored on Browser's local storage.
 
 # Links
-- url do site Live: [https://j0t4s.github.io/movie-watchlist/]
+- Live Site URL: [https://j0t4s.github.io/movie-watchlist/]
 
-# Construção
+# Built with
 - HTML5 semantico
 - CSS
 - Vanilla Javascript
 - [OMDb API](https://www.omdbapi.com/)
 
 # Continuação
-- O codigo ainda precisa de um pouco de refinamento na parte dry.
-- Adicionar reponsividade para diferentes telas. 
-- Vou implematar mais utilidades conforme meu conhecimento for aumentando
+- The code need to be more dry.
+- Add responsiveness. 
+- I will implement more features as my knowledge grows
 
-# autor
+# Author
 - Jota - [https://www.linkedin.com/in/jo%C3%A3o-paulo-j0t4s/]
